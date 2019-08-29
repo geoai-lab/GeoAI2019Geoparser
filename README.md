@@ -10,7 +10,7 @@ This project restores the three top ranked toponym resolution systems (geoparser
 
 ### Repository organization
 
-The whole repository contains three part:
+The whole repository contains codes for three parts:
 * Three toponym detection methods;
 * Population heuristics based toponym disambiguation;
 * EUPEG corpus article examples;

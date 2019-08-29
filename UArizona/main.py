@@ -20,13 +20,13 @@ def main(config):
     # get pre trained embeddings
     embeddings = get_trimmed_glove_vectors(config.trimmed_filename)
 
-    # create dataset
-    # dev   = CoNLLDataset(config.dev_filename, processing_word,   ############ Here dev, test and train have the raw words and tags. Now we have to map these to corresponding word index
-    #                     processing_tag, config.max_iter)         ############ and tags index. Therefore, when we do model.evaluate in below lines, it calls run_evaluate in run_epoch function
-    # test  = CoNLLDataset(config.test_filename, processing_word,
-    #                     processing_tag, config.max_iter)
-    # train = CoNLLDataset(config.train_filename, processing_word,
-    #                     processing_tag, config.max_iter)
+    ##create dataset
+    dev   = CoNLLDataset(config.dev_filename, processing_word,   ############ Here dev, test and train have the raw words and tags. Now we have to map these to corresponding word index
+                        processing_tag, config.max_iter)         ############ and tags index. Therefore, when we do model.evaluate in below lines, it calls run_evaluate in run_epoch function
+    test  = CoNLLDataset(config.test_filename, processing_word,
+                        processing_tag, config.max_iter)
+    train = CoNLLDataset(config.train_filename, processing_word,
+                        processing_tag, config.max_iter)
 
     # build model
     model = NERModel(config, embeddings, ntags=len(vocab_tags),
@@ -34,9 +34,9 @@ def main(config):
     model.build()
 
     # train, evaluate and interact
-    # model.train(train, dev, vocab_tags)
-    # model.evaluate(test, vocab_tags)
-    model.interactive_shell(vocab_tags, processing_word)
+    model.train(train, dev, vocab_tags)
+    model.evaluate(test, vocab_tags)
+    # model.interactive_shell(vocab_tags, processing_word)
 
 
 if __name__ == "__main__":
