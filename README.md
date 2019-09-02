@@ -46,6 +46,6 @@ Here presents the performance tables of eight tested corpora:
 <img align="center" src="fig/TABLE7.png" width="520" height="300"/>
 </p>
 <p align="center">
-<img align="center" src="fig/TABLE8.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE88.png" width="520" height="300"/>
 </p>
 
