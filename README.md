@@ -25,7 +25,7 @@ We test three restored models and eight other majorly used geoparsers using an E
 Here presents the performance tables of eight tested corpora:
 
 <p align="center">
-<img align="center" src="fig/TABLE1.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE11.png" width="520" height="300"/>
 </p>
 <p align="center">
 <img align="center" src="fig/TABLE2.png" width="520" height="300"/>
