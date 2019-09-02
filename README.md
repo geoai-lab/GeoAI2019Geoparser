@@ -1,4 +1,4 @@
-# Evaluating State-of-the-Art Deep Learning Geoparsers Using a Comprehensive Benchmarking Platform
+# Are We There Yet? Evaluating State-of-the-Art Deep Learning Geoparsers Using EUPEG as a Benchmarking Platform
 
 ### Introduction
 
