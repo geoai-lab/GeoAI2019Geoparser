@@ -25,27 +25,27 @@ We test three restored models and eight other existing geoparsers using our benc
 The performance tables of all geoparsers on the eight tested corpora are provided as below:
 
 <p align="center">
-<img align="center" src="fig/TABLE11.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE11.png" width="520" />
 </p>
 <p align="center">
-<img align="center" src="fig/TABLE2.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE2.png" width="520" />
 </p>
 <p align="center">
-<img align="center" src="fig/TABLE3.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE3.png" width="520" />
 </p>
 <p align="center">
-<img align="center" src="fig/TABLE4.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE4.png" width="520" />
 </p>
 <p align="center">
-<img align="center" src="fig/TABLE5.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE5.png" width="520" />
 </p>
 <p align="center">
-<img align="center" src="fig/TABLE6.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE6.png" width="520" />
 </p>
 <p align="center">
-<img align="center" src="fig/TABLE7.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE7.png" width="520" />
 </p>
 <p align="center">
-<img align="center" src="fig/TABLE88.png" width="520" height="300"/>
+<img align="center" src="fig/TABLE88.png" width="520" />
 </p>
 
