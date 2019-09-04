@@ -8,8 +8,8 @@ This project systematically evaluates the top three geoparsers from the SemEval2
 * UniMelb: 	ELMo + wordBiLSTM + self-attention + softmax, Keras
 * UArizona:	Glove + charLSTM + wordLSTM + CRF, Tensorflow
 
-The source codes hosted on this repository are not the official codes provided by the SemEval2019-Task12 organizers but our own implementations based on the descriptions of the papers.
-For each one of the three models, we implement the toponym detetcion part based on all the information provided by their papers. The toponym resolution part of all three geoparsers is based on the population heuristics.
+The source codes hosted on this repository are our own implementations based on the descriptions of the papers.
+For each one of the three geoparsers, we implement the toponym detetcion part based on the information provided in their papers, and use the population heuristic for toponym resolution.
 
 ### Repository organization
 
